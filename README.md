@@ -37,3 +37,83 @@ penerimaan input dan diakhiri dengan penampilan output.
     >Konversi Bilangan Biner ke Heksadesimal (Pengubahan bilangan Biner ke Heksadesimal dilakukan dengan pengelompokan setiap empat bit Biner dimulai dari bit paling  kanan.Kemudian konversikan setiap kelompok menjadi satu digit Heksadesimal.)
   Begitu Sebaliknya
   
+  Latihan Modul 1
+  1. 198010  ke sistem bilangan Biner, Heksadesimal dan Oktal 
+  public class KonversiBilangan {
+            
+    public static void main(String[] args) {
+        int bilanganDesimal = 1980;
+
+        // Konversi ke biner
+        String bilanganBiner = Integer.toBinaryString(bilanganDesimal);
+        System.out.println("Biner: " + bilanganBiner);
+
+        // Konversi ke heksadesimal
+        String bilanganHeksadesimal = Integer.toHexString(bilanganDesimal);
+        System.out.println("Heksadesimal: " + bilanganHeksadesimal);
+
+        // Konversi ke oktal
+        String bilanganOktal = Integer.toOctalString(bilanganDesimal);
+        System.out.println("Oktal: " + bilanganOktal);
+    }
+}
+
+    2. 100100110 2  ke sistem bilangan Desimal, Heksadesimal dan Oktal
+    public class KonversiBilangan2 {
+    
+    public static void main(String[] args) {
+        String bilanganBiner = "1001001101";
+
+        // Konversi ke desimal
+        int bilanganDesimal = Integer.parseInt(bilanganBiner, 2);
+        System.out.println("Desimal: " + bilanganDesimal);
+
+        // Konversi ke heksadesimal
+        String bilanganHeksadesimal = Integer.toHexString(bilanganDesimal);
+        System.out.println("Heksadesimal: " + bilanganHeksadesimal);
+
+        // Konversi ke oktal
+        String bilanganOktal = Integer.toOctalString(bilanganDesimal);
+        System.out.println("Oktal: " + bilanganOktal);
+    }
+}
+
+    3.768 ke sistem bilangan Biner, Heksadesimal dan Desimal
+    public class KonversiBilangan3 {
+    
+    public static void main(String[] args) {
+        String bilanganOktal = "76";
+
+        // Konversi ke desimal
+        int bilanganDesimal = Integer.parseInt(bilanganOktal, 8);
+        System.out.println("Desimal: " + bilanganDesimal);
+
+        // Konversi ke biner
+        String bilanganBiner = Integer.toBinaryString(bilanganDesimal);
+        System.out.println("Biner: " + bilanganBiner);
+
+        // Konversi ke heksadesimal
+        String bilanganHeksadesimal = Integer.toHexString(bilanganDesimal);
+        System.out.println("Heksadesimal: " + bilanganHeksadesimal);
+    }
+}
+
+    4. 43F16 ke sistem bilangan Biner, Desimal dan Oktal
+  public class KonversiBilangan4 {
+   
+    public static void main(String[] args) {
+        String bilanganHeksadesimal = "43F";
+
+        // Konversi ke desimal
+        int bilanganDesimal = Integer.parseInt(bilanganHeksadesimal, 16);
+        System.out.println("Desimal: " + bilanganDesimal);
+
+        // Konversi ke biner
+        String bilanganBiner = Integer.toBinaryString(bilanganDesimal);
+        System.out.println("Biner: " + bilanganBiner);
+
+        // Konversi ke oktal
+        String bilanganOktal = Integer.toOctalString(bilanganDesimal);
+        System.out.println("Oktal: " + bilanganOktal);
+    }
+}
