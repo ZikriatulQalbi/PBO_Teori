@@ -117,3 +117,111 @@ penerimaan input dan diakhiri dengan penampilan output.
         System.out.println("Oktal: " + bilanganOktal);
     }
 }
+
+BAB 3
+Mengenal Lingkup Pemrograman Anda
+1. Hello World!
+public class ZikriatulTgs_2201081013 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello Word,Welcom to java Programing Zikriatul Qalbi");
+    }
+    
+}
+
+Fungsi dari setiap baris kode adalah sebagai berikut:
+public static void main(String[] args): Ini adalah deklarasi metode utama yang akan dieksekusi ketika program dijalankan. Ini adalah titik awal eksekusi program.
+System.out.println("Hello Word,Welcom to java Programing Zikriatul Qalbi");: Ini adalah perintah untuk mencetak teks ke konsol. Metode println() mengambil argumen teks yang ingin dicetak, dan mencetaknya ke konsol dengan baris baru di akhir.
+Jadi, fungsi dari kode ini adalah mencetak pesan sambutan ke konsol ketika program dijalankan.
+
+2. The Tree
+public class theTree {
+    
+        public static void main(String[]args){
+            System.out.println("I think that shall never see,");
+            System.out.println("a poem as lovely as a tree.");
+            System.out.println("A tree whose hungry mouth is pressed");
+            System.out.println("Againts the Earth's sweet flowing breast.");
+        }
+    
+}
+
+Fungsi dari setiap baris kode adalah sebagai berikut:
+public static void main(String[]args){: Ini adalah deklarasi metode utama yang akan dieksekusi ketika program dijalankan. Ini adalah titik awal eksekusi program.
+System.out.println("I think that shall never see,");: Ini adalah perintah untuk mencetak teks "I think that shall never see," ke konsol, diikuti dengan baris baru.
+System.out.println("a poem as lovely as a tree.");: Ini adalah perintah untuk mencetak teks "a poem as lovely as a tree." ke konsol, diikuti dengan baris baru.
+System.out.println("A tree whose hungry mouth is pressed");: Ini adalah perintah untuk mencetak teks "A tree whose hungry mouth is pressed" ke konsol, diikuti dengan baris baru.
+System.out.println("Againts the Earth's sweet flowing breast.");: Ini adalah perintah untuk mencetak teks "Againts the Earth's sweet flowing breast." ke konsol, diikuti dengan baris baru.
+Jadi, fungsi dari kode ini adalah mencetak beberapa baris teks dari puisi ke konsol. Puisi ini adalah "Trees" karya Joyce Kilmer.
+
+          BAB 4
+Dasar-Dasar Pemrograman
+Latihan
+1.Mendeklarasikan dan Mencetak Variabel
+
+public class DeklarasiDanCetakVariabel {
+
+    public static void main(String[] args) {
+        int number = 10;
+        char letter = 'a';
+        boolean result = true;
+        String str = "hello";
+        
+        System.out.println("Number : "+number);
+        System.out.println("Letter : "+letter);
+        System.out.println("Result : "+result);
+        System.out.println("Str :"+str);
+        
+        
+    }
+    
+}
+
+2.Mendapatkan Nilai Rata-rata Dari Tiga Angka
+
+public class MenampilkanNilaiTerbesar {
+    public static void main(String[] args){
+        int number1=10;
+        int number2=23;
+        int number3=5;
+        int nilai = 0;
+        
+        nilai = (number2 > number3)? (number2 > number1)? number2:number1:number3;
+        
+        System.out.println("Number1 : "+number1);
+        System.out.println("Number2 : "+number2);
+        System.out.println("Number3 : "+number3);
+        System.out.println("Nilai Tertinggi : "+nilai);
+        
+    }
+    
+}
+
+3.Menampilkan Nilai Terbesar
+
+public class MendapatkanNilaiRata_rata_dariTigaAngka {
+    public static void main(String[] args){
+        int number1=10;
+        int number2=20;
+        int number3=45;
+        int fathy=(number1+number2+number3)/3;
+        
+        System.out.println("Number1 : "+number1);
+        System.out.println("Number2 : "+number2);
+        System.out.println("Number3 : "+number3);
+        System.out.println("Avarage is : "+fathy);
+                
+    }
+    
+}
+
+4.Operator Precedence
+
+public class OperatorPrecedence {
+    public static void main(String[] args){
+        System.out.println("1. a / b ^ c ^ d - e + f - g * h + i ");
+        System.out.println("2. 3 * 10* 2 / 15 - 2 + 4 ^ 2 ^ 2 ");
+        System.out.println("3. r ^ s * t / u - v + w ^ x - y++");
+    }
+    
+}
